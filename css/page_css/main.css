@@ -1,0 +1,64 @@
+/* start home */
+
+#home {
+    min-height: 650px;
+}
+
+
+.home-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.home-bottom .right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/* end home */
+
+/* start project */
+
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.card .image {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--dark-dark-grey);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.card img:hover {
+    scale: 1.1;
+    overflow: hidden;
+}
+
+.card-title {
+    margin-top: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end project */
+
+/* responsive tablet */
+
+@media

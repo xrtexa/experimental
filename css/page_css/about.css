@@ -1,0 +1,12 @@
+/* start about */
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-wrapper .right img {
+    width: 100%;
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
